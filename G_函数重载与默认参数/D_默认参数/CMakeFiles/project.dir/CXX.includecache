@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/whensunset/CLionProjects/Thinking In c++/G_函数重载与默认参数/D_默认参数/A_DefualtParam.cpp
+iostream
+-
+

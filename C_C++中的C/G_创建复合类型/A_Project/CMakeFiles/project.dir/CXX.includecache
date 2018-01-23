@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/whensunset/CLionProjects/Thinking In c++/C_C++中的C/G_创建复合类型/A_Project/H_FloatingAsBinary.cpp
+../../../common/printBinary.h
+/Users/whensunset/CLionProjects/Thinking In c++/common/printBinary.h
+iostream
+-
+
+/Users/whensunset/CLionProjects/Thinking In c++/common/printBinary.cpp
+iostream
+-
+
+/Users/whensunset/CLionProjects/Thinking In c++/common/printBinary.h
+

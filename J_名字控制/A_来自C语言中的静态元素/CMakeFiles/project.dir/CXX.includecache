@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/whensunset/CLionProjects/Thinking In c++/J_名字控制/A_来自C语言中的静态元素/D_LocalExtern.cpp
+iostream
+-
+
+/Users/whensunset/CLionProjects/Thinking In c++/J_名字控制/A_来自C语言中的静态元素/E_LocalExtern2.cpp
+

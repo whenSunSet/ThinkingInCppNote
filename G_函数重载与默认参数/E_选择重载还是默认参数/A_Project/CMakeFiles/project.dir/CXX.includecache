@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/whensunset/CLionProjects/Thinking In c++/G_函数重载与默认参数/E_选择重载还是默认参数/A_Project/A_Mem.cpp
+A_Mem.h
+/Users/whensunset/CLionProjects/Thinking In c++/G_函数重载与默认参数/E_选择重载还是默认参数/A_Project/A_Mem.h
+cstring
+-
+
+/Users/whensunset/CLionProjects/Thinking In c++/G_函数重载与默认参数/E_选择重载还是默认参数/A_Project/A_Mem.h
+
+/Users/whensunset/CLionProjects/Thinking In c++/G_函数重载与默认参数/E_选择重载还是默认参数/A_Project/B_MemTest.cpp
+cstring
+-
+iostream
+-
+A_Mem.h
+/Users/whensunset/CLionProjects/Thinking In c++/G_函数重载与默认参数/E_选择重载还是默认参数/A_Project/A_Mem.h
+

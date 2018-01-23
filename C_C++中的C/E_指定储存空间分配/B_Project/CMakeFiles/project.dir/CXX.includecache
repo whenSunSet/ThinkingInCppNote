@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/whensunset/CLionProjects/Thinking In c++/C_C++中的C/E_指定储存空间分配/B_Project/B_FileStatic.cpp
+iostream
+-
+
+/Users/whensunset/CLionProjects/Thinking In c++/C_C++中的C/E_指定储存空间分配/B_Project/C_FileStatic2.cpp
+sys/_types/_sigaltstack.h
+-
+

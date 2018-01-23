@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/whensunset/CLionProjects/Thinking In c++/H_常量/A_值替代/A_Project/A_Safecons.cpp
+iostream
+-
+
+/Users/whensunset/CLionProjects/Thinking In c++/H_常量/A_值替代/A_Project/B_Test.cpp
+iostream
+-
+

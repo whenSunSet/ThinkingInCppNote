@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/whensunset/CLionProjects/Thinking In c++/F_初始化与清理/E_带有构造函数和析构函数的Stack/A_Stack3.cpp
+A_Stack3.h
+/Users/whensunset/CLionProjects/Thinking In c++/F_初始化与清理/E_带有构造函数和析构函数的Stack/A_Stack3.h
+iostream
+-
+cassert
+-
+
+/Users/whensunset/CLionProjects/Thinking In c++/F_初始化与清理/E_带有构造函数和析构函数的Stack/A_Stack3.h
+
+/Users/whensunset/CLionProjects/Thinking In c++/F_初始化与清理/E_带有构造函数和析构函数的Stack/B_Stack3Test.cpp
+iostream
+-
+fstream
+-
+cassert
+-
+string
+-
+A_Stack3.h
+/Users/whensunset/CLionProjects/Thinking In c++/F_初始化与清理/E_带有构造函数和析构函数的Stack/A_Stack3.h
+

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/whensunset/CLionProjects/Thinking In c++/G_函数重载与默认参数/B_重载的例子/A_Project/A_Stash3.cpp
+iostream
+-
+cassert
+-
+A_Stash3.h
+/Users/whensunset/CLionProjects/Thinking In c++/G_函数重载与默认参数/B_重载的例子/A_Project/A_Stash3.h
+
+/Users/whensunset/CLionProjects/Thinking In c++/G_函数重载与默认参数/B_重载的例子/A_Project/A_Stash3.h
+
+/Users/whensunset/CLionProjects/Thinking In c++/G_函数重载与默认参数/B_重载的例子/A_Project/B_Stash3Test.cpp
+iostream
+-
+cassert
+-
+string
+-
+fstream
+-
+A_Stash3.h
+/Users/whensunset/CLionProjects/Thinking In c++/G_函数重载与默认参数/B_重载的例子/A_Project/A_Stash3.h
+

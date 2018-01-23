@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/whensunset/CLionProjects/Thinking In c++/I_内联函数/B_内联函数/E_Cpptime.cpp
+E_Cpptime.h
+/Users/whensunset/CLionProjects/Thinking In c++/I_内联函数/B_内联函数/E_Cpptime.h
+iostream
+-
+
+/Users/whensunset/CLionProjects/Thinking In c++/I_内联函数/B_内联函数/E_Cpptime.h
+ctime
+-
+cstring
+-
+

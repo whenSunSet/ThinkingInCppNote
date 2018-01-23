@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/whensunset/CLionProjects/Thinking In c++/E_隐藏实现/D_句柄类/A_Project/A_Handler.cpp
+A_Hanlder.h
+/Users/whensunset/CLionProjects/Thinking In c++/E_隐藏实现/D_句柄类/A_Project/A_Hanlder.h
+
+/Users/whensunset/CLionProjects/Thinking In c++/E_隐藏实现/D_句柄类/A_Project/A_Hanlder.h
+
+/Users/whensunset/CLionProjects/Thinking In c++/E_隐藏实现/D_句柄类/A_Project/UseHandler.cpp
+A_Hanlder.h
+/Users/whensunset/CLionProjects/Thinking In c++/E_隐藏实现/D_句柄类/A_Project/A_Hanlder.h
+

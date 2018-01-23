@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/whensunset/CLionProjects/Thinking In c++/I_内联函数/C_带内联函数的Stash和Stack/B_Project/A_Stack4.h
+cassert
+-
+
+/Users/whensunset/CLionProjects/Thinking In c++/I_内联函数/C_带内联函数的Stash和Stack/B_Project/B_Stack4Test.cpp
+iostream
+-
+fstream
+-
+cassert
+-
+string
+-
+A_Stack4.h
+/Users/whensunset/CLionProjects/Thinking In c++/I_内联函数/C_带内联函数的Stash和Stack/B_Project/A_Stack4.h
+

@@ -1,0 +1,3 @@
+/Users/whensunset/CLionProjects/Thinking In c++/J_名字控制/B_名字空间/B_Project/CMakeFiles/rebuild_cache.dir
+/Users/whensunset/CLionProjects/Thinking In c++/J_名字控制/B_名字空间/B_Project/CMakeFiles/edit_cache.dir
+/Users/whensunset/CLionProjects/Thinking In c++/J_名字控制/B_名字空间/B_Project/CMakeFiles/project.dir

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/whensunset/CLionProjects/Thinking In c++/D_数据抽象/E_嵌套结构/A_Project/A_Stack.cpp
+iostream
+-
+A_Stack.h
+/Users/whensunset/CLionProjects/Thinking In c++/D_数据抽象/E_嵌套结构/A_Project/A_Stack.h
+assert.h
+-
+
+/Users/whensunset/CLionProjects/Thinking In c++/D_数据抽象/E_嵌套结构/A_Project/A_Stack.h
+
+/Users/whensunset/CLionProjects/Thinking In c++/D_数据抽象/E_嵌套结构/A_Project/B_StackTest.cpp
+iostream
+-
+fstream
+-
+string
+-
+A_Stack.h
+/Users/whensunset/CLionProjects/Thinking In c++/D_数据抽象/E_嵌套结构/A_Project/A_Stack.h
+assert.h
+-
+

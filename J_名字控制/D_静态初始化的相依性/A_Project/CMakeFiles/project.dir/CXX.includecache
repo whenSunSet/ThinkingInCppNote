@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/whensunset/CLionProjects/Thinking In c++/J_名字控制/D_静态初始化的相依性/A_Project/A_Initializer.h
+iostream
+-
+
+/Users/whensunset/CLionProjects/Thinking In c++/J_名字控制/D_静态初始化的相依性/A_Project/B_InitializerDefs.cpp
+A_Initializer.h
+/Users/whensunset/CLionProjects/Thinking In c++/J_名字控制/D_静态初始化的相依性/A_Project/A_Initializer.h
+
+/Users/whensunset/CLionProjects/Thinking In c++/J_名字控制/D_静态初始化的相依性/A_Project/C_Initializer.cpp
+A_Initializer.h
+/Users/whensunset/CLionProjects/Thinking In c++/J_名字控制/D_静态初始化的相依性/A_Project/A_Initializer.h
+
+/Users/whensunset/CLionProjects/Thinking In c++/J_名字控制/D_静态初始化的相依性/A_Project/D_Initializer2.cpp
+A_Initializer.h
+/Users/whensunset/CLionProjects/Thinking In c++/J_名字控制/D_静态初始化的相依性/A_Project/A_Initializer.h
+

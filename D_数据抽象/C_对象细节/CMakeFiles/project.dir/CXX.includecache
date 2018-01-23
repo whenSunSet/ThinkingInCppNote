@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/whensunset/CLionProjects/Thinking In c++/D_数据抽象/A_一个袖珍C库/A_Project/A_CLib.cpp
+iostream
+-
+cassert
+-
+A_CLib.h
+/Users/whensunset/CLionProjects/Thinking In c++/D_数据抽象/A_一个袖珍C库/A_Project/A_CLib.h
+
+/Users/whensunset/CLionProjects/Thinking In c++/D_数据抽象/A_一个袖珍C库/A_Project/A_CLib.h
+
+/Users/whensunset/CLionProjects/Thinking In c++/D_数据抽象/B_基本对象/A_Project/A_CppLib.cpp
+iostream
+-
+cassert
+-
+A_CppLib.h
+/Users/whensunset/CLionProjects/Thinking In c++/D_数据抽象/B_基本对象/A_Project/A_CppLib.h
+
+/Users/whensunset/CLionProjects/Thinking In c++/D_数据抽象/B_基本对象/A_Project/A_CppLib.h
+
+/Users/whensunset/CLionProjects/Thinking In c++/D_数据抽象/C_对象细节/A_Sizeof.cpp
+iostream
+-
+cassert
+-
+../B_基本对象/A_Project/A_CppLib.h
+/Users/whensunset/CLionProjects/Thinking In c++/D_数据抽象/B_基本对象/A_Project/A_CppLib.h
+../A_一个袖珍C库/A_Project/A_CLib.h
+/Users/whensunset/CLionProjects/Thinking In c++/D_数据抽象/A_一个袖珍C库/A_Project/A_CLib.h
+
