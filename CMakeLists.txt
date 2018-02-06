@@ -281,4 +281,32 @@ PROJECT (Project_P_F_A)
 SET(SRC_LIST_P_F_A P_模板介绍/F_为什么使用迭代器/A_Shape.h P_模板介绍/F_为什么使用迭代器/B_Drawing.cpp P_模板介绍/E_迭代器/G_TPStash2.h P_模板介绍/E_迭代器/E_TStack2.h)
 ADD_EXECUTABLE(Project_P_F_A ${SRC_LIST_P_F_A})
 
+PROJECT (Project_Q_A_A)
+SET(SRC_LIST_Q_A_A Q_建立稳定的系统/A_抛出异常/A_MyError.cpp)
+ADD_EXECUTABLE(Project_Q_A_A ${SRC_LIST_Q_A_A})
+
+PROJECT (Project_Q_B_A)
+SET(SRC_LIST_Q_B_A Q_建立稳定的系统/B_捕获异常/A_Nonlocal2.cpp)
+ADD_EXECUTABLE(Project_Q_B_A ${SRC_LIST_Q_B_A})
+
+PROJECT (Project_Q_C_A)
+SET(SRC_LIST_Q_C_A Q_建立稳定的系统/C_异常匹配/A_Autoexcp.cpp)
+ADD_EXECUTABLE(Project_Q_C_A ${SRC_LIST_Q_C_A})
+
+PROJECT (Project_Q_C_B)
+SET(SRC_LIST_Q_C_B Q_建立稳定的系统/C_异常匹配/B_BaseExcept.cpp)
+ADD_EXECUTABLE(Project_Q_C_B ${SRC_LIST_Q_C_B})
+
+PROJECT (Project_Q_C_C)
+SET(SRC_LIST_Q_C_C Q_建立稳定的系统/C_异常匹配/C_Terminator.cpp)
+ADD_EXECUTABLE(Project_Q_C_C ${SRC_LIST_Q_C_C})
+
+PROJECT (Project_Q_D_A)
+SET(SRC_LIST_Q_D_A Q_建立稳定的系统/D_清理/A_Cleanup.cpp)
+ADD_EXECUTABLE(Project_Q_D_A ${SRC_LIST_Q_D_A})
+
+PROJECT (Project_Q_D_B)
+SET(SRC_LIST_Q_D_B Q_建立稳定的系统/D_清理/B_Rawp.cpp)
+ADD_EXECUTABLE(Project_Q_D_B ${SRC_LIST_Q_D_B})
+
 
