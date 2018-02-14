@@ -302,11 +302,78 @@ SET(SRC_LIST_Q_C_C Q_建立稳定的系统/C_异常匹配/C_Terminator.cpp)
 ADD_EXECUTABLE(Project_Q_C_C ${SRC_LIST_Q_C_C})
 
 PROJECT (Project_Q_D_A)
-SET(SRC_LIST_Q_D_A Q_建立稳定的系统/D_清理/A_Cleanup.cpp)
+SET(SRC_LIST_Q_D_A Q_建立稳定的系统/D_清理/A_Cleanup.cpp Q_建立稳定的系统/D_清理/E_InitExcept.cpp)
 ADD_EXECUTABLE(Project_Q_D_A ${SRC_LIST_Q_D_A})
 
 PROJECT (Project_Q_D_B)
 SET(SRC_LIST_Q_D_B Q_建立稳定的系统/D_清理/B_Rawp.cpp)
 ADD_EXECUTABLE(Project_Q_D_B ${SRC_LIST_Q_D_B})
 
+PROJECT (Project_Q_D_C)
+SET(SRC_LIST_Q_D_C Q_建立稳定的系统/D_清理/C_Wrapped.cpp)
+ADD_EXECUTABLE(Project_Q_D_C ${SRC_LIST_Q_D_C})
 
+PROJECT (Project_Q_D_D)
+SET(SRC_LIST_Q_D_D Q_建立稳定的系统/D_清理/D_Auto_ptr.cpp)
+ADD_EXECUTABLE(Project_Q_D_D ${SRC_LIST_Q_D_D})
+
+PROJECT (Project_Q_D_E)
+SET(SRC_LIST_Q_D_E Q_建立稳定的系统/D_清理/E_InitExcept.cpp)
+ADD_EXECUTABLE(Project_Q_D_E ${SRC_LIST_Q_D_E})
+
+PROJECT (Project_Q_E_A)
+SET(SRC_LIST_Q_E_A Q_建立稳定的系统/E_异常标准/A_StdExcept.cpp)
+ADD_EXECUTABLE(Project_Q_E_A ${SRC_LIST_Q_E_A})
+
+PROJECT (Project_Q_F_A)
+SET(SRC_LIST_Q_F_A Q_建立稳定的系统/F_异常规格说明/A_Unexpected.cpp)
+ADD_EXECUTABLE(Project_Q_F_A ${SRC_LIST_Q_F_A})
+
+PROJECT (Project_Q_F_B)
+SET(SRC_LIST_Q_F_B Q_建立稳定的系统/F_异常规格说明/B_Covariance.cpp)
+ADD_EXECUTABLE(Project_Q_F_B ${SRC_LIST_Q_F_B})
+
+PROJECT (Project_Q_G_A)
+SET(SRC_LIST_Q_G_A Q_建立稳定的系统/G_异常安全/A_SafeAssign.cpp)
+ADD_EXECUTABLE(Project_Q_G_A ${SRC_LIST_Q_G_A})
+
+PROJECT (Project_C_A_A)
+SET(SRC_LIST_C_A_A C_C++中的C/A_创建函数/Retrun.cpp)
+ADD_EXECUTABLE(Project_C_A_A ${SRC_LIST_C_A_A})
+
+PROJECT (Project_C_E_A)
+SET(SRC_LIST_C_E_A C_C++中的C/E_指定储存空间分配/A_Project/A_Global.cpp C_C++中的C/E_指定储存空间分配/A_Project/B_Global2.cpp)
+ADD_EXECUTABLE(Project_C_E_A ${SRC_LIST_C_E_A})
+
+PROJECT (Project_C_E_B)
+SET(SRC_LIST_C_E_B C_C++中的C/E_指定储存空间分配/B_Project/A_Static.cpp C_C++中的C/E_指定储存空间分配/B_Project/B_FileStatic.cpp C_C++中的C/E_指定储存空间分配/B_Project/C_FileStatic2.cpp)
+ADD_EXECUTABLE(Project_C_E_B ${SRC_LIST_C_E_B})
+
+PROJECT (Project_D_A_A)
+SET(SRC_LIST_D_A_A D_数据抽象/A_一个袖珍C库/A_Project/A_CLib.cpp
+        D_数据抽象/A_一个袖珍C库/A_Project/B_CLibTest.cpp
+        D_数据抽象/A_一个袖珍C库/A_Project/A_CLib.h)
+ADD_EXECUTABLE(Project_D_A_A ${SRC_LIST_D_A_A})
+
+PROJECT (Project_D_B_A)
+SET(SRC_LIST_D_B_A D_数据抽象/B_基本对象/A_Project/A_CppLib.cpp
+        D_数据抽象/B_基本对象/A_Project/A_CppLib.h
+        D_数据抽象/B_基本对象/A_Project/B_CppLibTest.cpp)
+ADD_EXECUTABLE(Project_D_B_A ${SRC_LIST_D_B_A})
+
+PROJECT (Project_D_E_A)
+SET(SRC_LIST_D_E_A D_数据抽象/E_嵌套结构/A_Project/A_Stack.cpp
+        D_数据抽象/E_嵌套结构/A_Project/A_Stack.h
+        D_数据抽象/E_嵌套结构/A_Project/B_StackTest.cpp
+        D_数据抽象/E_嵌套结构/A_Project/C_Scoperes.cpp)
+ADD_EXECUTABLE(Project_D_E_A ${SRC_LIST_D_E_A})
+
+PROJECT (Project_E_D_A)
+SET(SRC_LIST_E_D_A E_隐藏实现/D_句柄类/A_Project/A_Handler.cpp
+        E_隐藏实现/D_句柄类/A_Project/A_Hanlder.h
+        E_隐藏实现/D_句柄类/A_Project/UseHandler.cpp)
+ADD_EXECUTABLE(Project_E_D_A ${SRC_LIST_E_D_A})
+
+PROJECT (Project_TEST1)
+SET(SRC_LIST_TEST1 测试/Test.cpp)
+ADD_EXECUTABLE(Project_TEST1 ${SRC_LIST_TEST1})
